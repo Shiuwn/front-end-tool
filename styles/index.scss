@@ -1,0 +1,21 @@
+.layout {
+  min-width: 600px;
+  min-height: 400px;
+
+  .header {
+    height: 32px;
+    padding: 0 16px;
+    background-color: #fff;
+
+    .menu {
+      line-height: 32px;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+
+  .content {
+    padding: 16px;
+    background-color: #fff;
+  }
+
+}

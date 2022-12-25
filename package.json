@@ -10,9 +10,11 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "antd": "^5.1.0",
     "plasmo": "0.60.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.6.1"
   },
   "devDependencies": {
     "@plasmohq/prettier-plugin-sort-imports": "3.6.0",
