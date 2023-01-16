@@ -14,6 +14,9 @@ const items: MenuProps['items'] = [{
   label: 'Color',
   key: 'color'
 }, {
+  label: 'URL Code',
+  key: 'urlcode'
+}, {
   label: 'Other',
   key: 'other'
 }]
