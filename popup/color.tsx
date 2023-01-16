@@ -7,7 +7,7 @@ const Color: FC = () => {
 
   const [form] = Form.useForm<{ rgb: string, hex: string }>()
 
-  const [style, setStyle] = useState({ borderColor: 'auto' })
+  const [style, setStyle] = useState({ borderColor: 'auto', borderWidth: 4 })
 
   const colorChange = (e: ChangeEvent<HTMLInputElement>, type: 'rgb' | 'hex' = 'rgb') => {
     const inputValue = e.target.value
@@ -22,7 +22,7 @@ const Color: FC = () => {
     if (color) {
       const fields = type === 'rgb' ? { rgb: inputValue, hex: color.hex() } : { rgb: color.rgb().toString(), hex: inputValue }
       form.setFieldsValue(fields)
-      setStyle({ borderColor: color.toString() })
+      setStyle({ ...style, borderColor: color.toString() })
     }
 
   }
