@@ -10,6 +10,7 @@ specifiers:
   '@types/react-dom': 18.0.9
   antd: ^5.1.0
   color: ^4.2.3
+  js-base64: ^3.7.4
   lodash: ^4.17.21
   plasmo: 0.60.2
   prettier: 2.7.1
@@ -22,6 +23,7 @@ dependencies:
   '@types/color': registry.npmmirror.com/@types/color/3.0.3
   antd: registry.npmmirror.com/antd/5.1.0_biqbaboplfbrettd7655fr4n2y
   color: registry.npmmirror.com/color/4.2.3
+  js-base64: registry.npmmirror.com/js-base64/3.7.4
   lodash: registry.npmmirror.com/lodash/4.17.21
   plasmo: registry.npmmirror.com/plasmo/0.60.2_pvnihi4muhoy7kenlmiyxwzuqy
   react: registry.npmmirror.com/react/18.2.0
@@ -4147,6 +4149,12 @@ packages:
     name: joycon
     version: 3.1.1
     engines: {node: '>=10'}
+    dev: false
+
+  registry.npmmirror.com/js-base64/3.7.4:
+    resolution: {integrity: sha512-wpM/wi20Tl+3ifTyi0RdDckS4YTD4Lf953mBRrpG8547T7hInHNPEj8+ck4gB8VDcGyeAWFK++Wb/fU1BeavKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-base64/-/js-base64-3.7.4.tgz}
+    name: js-base64
+    version: 3.7.4
     dev: false
 
   registry.npmmirror.com/js-tokens/4.0.0:
