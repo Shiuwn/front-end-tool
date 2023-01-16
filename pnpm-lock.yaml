@@ -3,10 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@plasmohq/prettier-plugin-sort-imports': 3.6.0
   '@types/chrome': 0.0.202
+  '@types/color': ^3.0.3
+  '@types/lodash': ^4.14.191
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   antd: ^5.1.0
+  color: ^4.2.3
+  lodash: ^4.17.21
   plasmo: 0.60.2
   prettier: 2.7.1
   react: 18.2.0
@@ -15,8 +19,11 @@ specifiers:
   typescript: 4.9.3
 
 dependencies:
+  '@types/color': registry.npmmirror.com/@types/color/3.0.3
   antd: registry.npmmirror.com/antd/5.1.0_biqbaboplfbrettd7655fr4n2y
-  plasmo: registry.npmmirror.com/plasmo/0.60.2_biqbaboplfbrettd7655fr4n2y
+  color: registry.npmmirror.com/color/4.2.3
+  lodash: registry.npmmirror.com/lodash/4.17.21
+  plasmo: registry.npmmirror.com/plasmo/0.60.2_pvnihi4muhoy7kenlmiyxwzuqy
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
   react-router-dom: registry.npmmirror.com/react-router-dom/6.6.1_biqbaboplfbrettd7655fr4n2y
@@ -24,6 +31,7 @@ dependencies:
 devDependencies:
   '@plasmohq/prettier-plugin-sort-imports': registry.npmmirror.com/@plasmohq/prettier-plugin-sort-imports/3.6.0_prettier@2.7.1
   '@types/chrome': registry.npmmirror.com/@types/chrome/0.0.202
+  '@types/lodash': registry.npmmirror.com/@types/lodash/4.14.191
   '@types/node': registry.npmmirror.com/@types/node/18.11.9
   '@types/react': registry.npmmirror.com/@types/react/18.0.25
   '@types/react-dom': registry.npmmirror.com/@types/react-dom/18.0.9
@@ -1563,7 +1571,7 @@ packages:
       nullthrows: registry.npmmirror.com/nullthrows/1.1.1
     dev: false
 
-  registry.npmmirror.com/@plasmohq/consolidate/0.17.0_biqbaboplfbrettd7655fr4n2y:
+  registry.npmmirror.com/@plasmohq/consolidate/0.17.0_pvnihi4muhoy7kenlmiyxwzuqy:
     resolution: {integrity: sha512-Na8imBnvzYPtzkK+9Uv9hPZ/oJti/0jgiQWD222SHxHw2QCVuR4KzslxXCy/rS8gGluSiTs1BGVvc3d2O6aJCA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@plasmohq/consolidate/-/consolidate-0.17.0.tgz}
     id: registry.npmmirror.com/@plasmohq/consolidate/0.17.0
     name: '@plasmohq/consolidate'
@@ -1711,6 +1719,7 @@ packages:
         optional: true
     dependencies:
       bluebird: registry.npmmirror.com/bluebird/3.7.2
+      lodash: registry.npmmirror.com/lodash/4.17.21
       react: registry.npmmirror.com/react/18.2.0
       react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
     dev: false
@@ -1736,7 +1745,7 @@ packages:
       nullthrows: registry.npmmirror.com/nullthrows/1.1.1
     dev: false
 
-  registry.npmmirror.com/@plasmohq/parcel-config/0.26.3_biqbaboplfbrettd7655fr4n2y:
+  registry.npmmirror.com/@plasmohq/parcel-config/0.26.3_pvnihi4muhoy7kenlmiyxwzuqy:
     resolution: {integrity: sha512-rBtVS0Cze88fhB1P+TIrsykMRiwWAQKNouH/2FCiBT0AgMp6rJZRs0j5MNpq3Oa9MTSWZVdhvoqZgFKZybxn+g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@plasmohq/parcel-config/-/parcel-config-0.26.3.tgz}
     id: registry.npmmirror.com/@plasmohq/parcel-config/0.26.3
     name: '@plasmohq/parcel-config'
@@ -1767,7 +1776,7 @@ packages:
       '@plasmohq/parcel-transformer-inline-css': registry.npmmirror.com/@plasmohq/parcel-transformer-inline-css/0.2.2
       '@plasmohq/parcel-transformer-manifest': registry.npmmirror.com/@plasmohq/parcel-transformer-manifest/0.13.1
       '@plasmohq/parcel-transformer-svelte3': registry.npmmirror.com/@plasmohq/parcel-transformer-svelte3/0.3.2
-      '@plasmohq/parcel-transformer-vue3': registry.npmmirror.com/@plasmohq/parcel-transformer-vue3/0.3.2_biqbaboplfbrettd7655fr4n2y
+      '@plasmohq/parcel-transformer-vue3': registry.npmmirror.com/@plasmohq/parcel-transformer-vue3/0.3.2_pvnihi4muhoy7kenlmiyxwzuqy
     transitivePeerDependencies:
       - '@swc/core'
       - arc-templates
@@ -1950,7 +1959,7 @@ packages:
       '@parcel/utils': registry.npmmirror.com/@parcel/utils/2.8.2
     dev: false
 
-  registry.npmmirror.com/@plasmohq/parcel-transformer-vue3/0.3.2_biqbaboplfbrettd7655fr4n2y:
+  registry.npmmirror.com/@plasmohq/parcel-transformer-vue3/0.3.2_pvnihi4muhoy7kenlmiyxwzuqy:
     resolution: {integrity: sha512-2pS+sN9kqRQVpGgnBD2NW9zaXivUrSDh5NY01ZkT8eKt/uVa4QJMdrxCpgPbTFvqw8nueaP3M4RB7ucVz/UbsQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@plasmohq/parcel-transformer-vue3/-/parcel-transformer-vue3-0.3.2.tgz}
     id: registry.npmmirror.com/@plasmohq/parcel-transformer-vue3/0.3.2
     name: '@plasmohq/parcel-transformer-vue3'
@@ -1963,7 +1972,7 @@ packages:
       '@parcel/source-map': registry.npmmirror.com/@parcel/source-map/2.1.1
       '@parcel/types': registry.npmmirror.com/@parcel/types/2.8.2_@parcel+core@2.8.2
       '@parcel/utils': registry.npmmirror.com/@parcel/utils/2.8.2
-      '@plasmohq/consolidate': registry.npmmirror.com/@plasmohq/consolidate/0.17.0_biqbaboplfbrettd7655fr4n2y
+      '@plasmohq/consolidate': registry.npmmirror.com/@plasmohq/consolidate/0.17.0_pvnihi4muhoy7kenlmiyxwzuqy
       '@vue/compiler-sfc': registry.npmmirror.com/@vue/compiler-sfc/3.2.45
       nullthrows: registry.npmmirror.com/nullthrows/1.1.1
       semver: registry.npmmirror.com/semver/7.3.8
@@ -2148,6 +2157,28 @@ packages:
       '@types/har-format': registry.npmmirror.com/@types/har-format/1.2.10
     dev: true
 
+  registry.npmmirror.com/@types/color-convert/2.0.0:
+    resolution: {integrity: sha512-m7GG7IKKGuJUXvkZ1qqG3ChccdIM/qBBo913z+Xft0nKCX4hAU/IxKwZBU4cpRZ7GS5kV4vOblUkILtSShCPXQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/color-convert/-/color-convert-2.0.0.tgz}
+    name: '@types/color-convert'
+    version: 2.0.0
+    dependencies:
+      '@types/color-name': registry.npmmirror.com/@types/color-name/1.1.1
+    dev: false
+
+  registry.npmmirror.com/@types/color-name/1.1.1:
+    resolution: {integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/color-name/-/color-name-1.1.1.tgz}
+    name: '@types/color-name'
+    version: 1.1.1
+    dev: false
+
+  registry.npmmirror.com/@types/color/3.0.3:
+    resolution: {integrity: sha512-X//qzJ3d3Zj82J9sC/C18ZY5f43utPbAJ6PhYt/M7uG6etcF6MRpKdN880KBy43B0BMzSfeT96MzrsNjFI3GbA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/color/-/color-3.0.3.tgz}
+    name: '@types/color'
+    version: 3.0.3
+    dependencies:
+      '@types/color-convert': registry.npmmirror.com/@types/color-convert/2.0.0
+    dev: false
+
   registry.npmmirror.com/@types/filesystem/0.0.32:
     resolution: {integrity: sha512-Yuf4jR5YYMR2DVgwuCiP11s0xuVRyPKmz8vo6HBY3CGdeMj8af93CFZX+T82+VD1+UqHOxTq31lO7MI7lepBtQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/filesystem/-/filesystem-0.0.32.tgz}
     name: '@types/filesystem'
@@ -2173,6 +2204,12 @@ packages:
     name: '@types/json-schema'
     version: 7.0.11
     dev: false
+
+  registry.npmmirror.com/@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/lodash/-/lodash-4.14.191.tgz}
+    name: '@types/lodash'
+    version: 4.14.191
+    dev: true
 
   registry.npmmirror.com/@types/node/18.11.9:
     resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.11.9.tgz}
@@ -4940,7 +4977,7 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  registry.npmmirror.com/plasmo/0.60.2_biqbaboplfbrettd7655fr4n2y:
+  registry.npmmirror.com/plasmo/0.60.2_pvnihi4muhoy7kenlmiyxwzuqy:
     resolution: {integrity: sha512-sWI6eU5gdHyRR5SaC1ZlMvbGci7b+nNaVX0e9dJpBuAM9tr2sPqf3iBoRZ1XT+RsjD1Ma05rdeGMSa+ClPkQdA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/plasmo/-/plasmo-0.60.2.tgz}
     id: registry.npmmirror.com/plasmo/0.60.2
     name: plasmo
@@ -4953,7 +4990,7 @@ packages:
       '@parcel/package-manager': registry.npmmirror.com/@parcel/package-manager/2.8.2_@parcel+core@2.8.2
       '@parcel/watcher': registry.npmmirror.com/@parcel/watcher/2.0.7
       '@plasmohq/init': registry.npmmirror.com/@plasmohq/init/0.5.3
-      '@plasmohq/parcel-config': registry.npmmirror.com/@plasmohq/parcel-config/0.26.3_biqbaboplfbrettd7655fr4n2y
+      '@plasmohq/parcel-config': registry.npmmirror.com/@plasmohq/parcel-config/0.26.3_pvnihi4muhoy7kenlmiyxwzuqy
       archiver: registry.npmmirror.com/archiver/5.3.1
       buffer: registry.npmmirror.com/buffer/6.0.3
       chalk: registry.npmmirror.com/chalk/5.2.0

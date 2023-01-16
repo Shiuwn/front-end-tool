@@ -10,7 +10,10 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@types/color": "^3.0.3",
     "antd": "^5.1.0",
+    "color": "^4.2.3",
+    "lodash": "^4.17.21",
     "plasmo": "0.60.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "@plasmohq/prettier-plugin-sort-imports": "3.6.0",
     "@types/chrome": "0.0.202",
+    "@types/lodash": "^4.14.191",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
