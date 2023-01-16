@@ -35,7 +35,10 @@ const Home: FC = () => {
 
   useEffect(() => {
     storage.get('menu').then((key) => {
-      key && setCurrent(key)
+      if (key) {
+        setCurrent(key)
+        navigate(`/${key}`)
+      }
     })
   }, [])
 
