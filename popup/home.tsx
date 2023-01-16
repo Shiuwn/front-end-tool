@@ -1,14 +1,10 @@
-import { FC, useState } from "react";
-import { Outlet, NavLink, useHref, useMatch, useNavigate } from 'react-router-dom'
+import { FC, useEffect, useState } from "react";
+import { Outlet, useNavigate } from 'react-router-dom'
 import { Menu, Layout } from 'antd'
 import type { MenuProps } from 'antd'
+import { Storage } from '@plasmohq/storage'
 
 const { Header, Content } = Layout
-const CustomLink: FC<{ label: string, href: string }> = ({ label, href }) => {
-  const [active, setActive] = useState(false)
-  return (<NavLink to={href} >{label}</NavLink>)
-}
-
 
 const items: MenuProps['items'] = [{
   label: 'Color',
@@ -23,13 +19,26 @@ const items: MenuProps['items'] = [{
   label: 'Other',
   key: 'other'
 }]
+
+const storage = new Storage({
+  area: 'local'
+})
+
 const Home: FC = () => {
   const [current, setCurrent] = useState('color')
   const navigate = useNavigate()
   const menuChange: MenuProps['onClick'] = (e) => {
     setCurrent(e.key)
     navigate(`/${e.key}`)
+    storage.set('menu', e.key)
   }
+
+  useEffect(() => {
+    storage.get('menu').then((key) => {
+      key && setCurrent(key)
+    })
+  }, [])
+
   return (
     <Layout className="layout">
       <Header className="header">

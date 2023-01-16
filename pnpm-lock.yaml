@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@plasmohq/prettier-plugin-sort-imports': 3.6.0
+  '@plasmohq/storage': ^0.14.0
   '@types/chrome': 0.0.202
   '@types/color': ^3.0.3
   '@types/lodash': ^4.14.191
@@ -20,6 +21,7 @@ specifiers:
   typescript: 4.9.3
 
 dependencies:
+  '@plasmohq/storage': registry.npmmirror.com/@plasmohq/storage/0.14.0_react@18.2.0
   '@types/color': registry.npmmirror.com/@types/color/3.0.3
   antd: registry.npmmirror.com/antd/5.1.0_biqbaboplfbrettd7655fr4n2y
   color: registry.npmmirror.com/color/4.2.3
@@ -2047,6 +2049,21 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  registry.npmmirror.com/@plasmohq/storage/0.14.0_react@18.2.0:
+    resolution: {integrity: sha512-KJMpYaVMesGwjKR5dvv/chazfUuLnmV9ZcN6T8FiK45KxGHt6sI2frEP6hSeWcIuenxzKq4JIzzDHPOvMAhjVw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@plasmohq/storage/-/storage-0.14.0.tgz}
+    id: registry.npmmirror.com/@plasmohq/storage/0.14.0
+    name: '@plasmohq/storage'
+    version: 0.14.0
+    peerDependencies:
+      react: ^16.8.6 || ^17 || ^18
+    peerDependenciesMeta:
+      react:
+        optional: true
+    dependencies:
+      react: registry.npmmirror.com/react/18.2.0
+      webextension-polyfill: registry.npmmirror.com/webextension-polyfill/0.10.0
+    dev: false
 
   registry.npmmirror.com/@pnpm/network.ca-file/1.0.2:
     resolution: {integrity: sha512-YcPQ8a0jwYU9bTdJDpXjMi7Brhkr1mXsXrUJvjqM2mQDgkRiz8jFaQGOdaLxgjtUfQgZhKy/O3cG/YwmgKaxLA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@pnpm/network.ca-file/-/network.ca-file-1.0.2.tgz}
@@ -6788,6 +6805,12 @@ packages:
     resolution: {integrity: sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/weak-lru-cache/-/weak-lru-cache-1.2.2.tgz}
     name: weak-lru-cache
     version: 1.2.2
+    dev: false
+
+  registry.npmmirror.com/webextension-polyfill/0.10.0:
+    resolution: {integrity: sha512-c5s35LgVa5tFaHhrZDnr3FpQpjj1BB+RXhLTYUxGqBVN460HkbM8TBtEqdXWbpTKfzwCcjAZVF7zXCYSKtcp9g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/webextension-polyfill/-/webextension-polyfill-0.10.0.tgz}
+    name: webextension-polyfill
+    version: 0.10.0
     dev: false
 
   registry.npmmirror.com/webidl-conversions/4.0.2:
