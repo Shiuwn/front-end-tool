@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { Outlet, NavLink, useHref, useMatch } from 'react-router-dom'
+import { Outlet, NavLink, useHref, useMatch, useNavigate } from 'react-router-dom'
 import { Menu, Layout } from 'antd'
 import type { MenuProps } from 'antd'
 
@@ -19,8 +19,10 @@ const items: MenuProps['items'] = [{
 }]
 const Home: FC = () => {
   const [current, setCurrent] = useState('color')
+  const navigate = useNavigate()
   const menuChange: MenuProps['onClick'] = (e) => {
     setCurrent(e.key)
+    navigate(`/${e.key}`)
   }
   return (
     <Layout className="layout">
