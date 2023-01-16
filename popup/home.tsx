@@ -17,6 +17,9 @@ const items: MenuProps['items'] = [{
   label: 'URL Code',
   key: 'urlcode'
 }, {
+  label: 'Base64',
+  key: 'base64'
+}, {
   label: 'Other',
   key: 'other'
 }]
